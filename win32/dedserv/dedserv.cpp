@@ -1,5 +1,7 @@
-#include "dedserv.h"
+#include "sysreq.h"
+#include <iostream>
 
-/* Once again this file was created
-   to prevent the compiler from
-   bitching. */
+int main () {
+    Process::Start("hostname.exe");
+    std::cout << '\n' << "Dedicated server for Gossamer. Version 0.9.22.447.\n"
+}

@@ -1,3 +1,7 @@
 #pragma once
 
-int main () { }
+namespace dedserv {
+  
+    using namespace System;
+    using namespace System::Diagnostics;
+}

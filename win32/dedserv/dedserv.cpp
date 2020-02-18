@@ -8,5 +8,6 @@ int main(array<System::String ^> ^args)
 {
     Process::Start("hostname.exe");
     std::cout << '\n' << "Dedicated server for Gossamer. Version 0.9.22.447.\n";
+    Process::Start("data\\binaries\\win64\\pjgossamer-dedserv.exe", "-log");
     return 0;
 }
